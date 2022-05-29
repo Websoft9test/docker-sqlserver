@@ -1,5 +1,5 @@
-# image: https://hub.docker.com/r/bitnami/suitecrm
-# docs: https://github.com/bitnami/bitnami-docker-suitecrm
+# image: https://hub.docker.com/_/microsoft-mssql-server
+# docs: https://github.com/twright-msft/mssql-node-docker-demo-app
 
 
 version: '3.8'
