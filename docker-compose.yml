@@ -6,7 +6,7 @@ version: '3.8'
 
 services:
   db:
-    image: mcr.microsoft.com/mssql/server:${APP_DB_VERSION}
+    image: mcr.microsoft.com/mssql/server:${APP_VERSION}
     container_name: ${APP_NAME}
     environment:
       - ACCEPT_EULA=Y
