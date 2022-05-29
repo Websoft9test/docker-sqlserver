@@ -11,7 +11,7 @@ services:
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=${APP_PASSWORD}
-      - MSSQL_PID: ${APP_PID}
+      - MSSQL_PID=${APP_PID}
     ports:
       - ${APP_DB_PORT}:1433
     volumes:
