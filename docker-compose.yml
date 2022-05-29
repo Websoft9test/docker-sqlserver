@@ -14,7 +14,7 @@ services:
       - MSSQL_PID=${APP_PID}
     ports:
       - ${APP_DB_PORT}:1433
-    volumes:
+    #volumes:
       #- mssql_data:/var/lib/mysql
     restart: always
 
