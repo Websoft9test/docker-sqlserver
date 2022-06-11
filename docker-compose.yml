@@ -1,7 +1,6 @@
 # image: https://hub.docker.com/_/microsoft-mssql-server
 # docs: https://github.com/twright-msft/mssql-node-docker-demo-app
 
-
 version: '3.8'
 
 services:
